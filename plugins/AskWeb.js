@@ -42,15 +42,15 @@ const PickResults = actions['pick web results:'] = {
     }
   },
   model: {
-    description: `This action picks the most relavent search results from a list of search results.`,
+    description: `This action picks the most relevant search results from a list of search results.`,
     prompts: {
-      systemPrompt: `You are a helpful assistant whose task is to pick the most relavent search results from a list of search results.`,
+      systemPrompt: `You are a helpful assistant whose task is to pick the most relevant search results from a list of search results.`,
     },
-    function_description: `The function receives a list of search results from a search engine. It returns a list of the search results that are most relavent to the user's query. The results will be returned with the most relavent result at the top.`,
+    function_description: `The function receives a list of search results from a search engine. It returns a list of the search results that are most relevant to the user's query. The results will be returned with the most relevant result at the top.`,
     function_call_props: {
       search_results: {
         type: 'array',
-        description: 'A list of search results that are most relavent to answering the user\'s query.',
+        description: 'A list of search results that are most relevant to answering the user\'s query.',
         items: {
           type: 'integer',
           description: `The number of the search result that should be used to answer the user's query`
