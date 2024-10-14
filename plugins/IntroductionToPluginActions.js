@@ -58,7 +58,7 @@ actions['intro action:'] = { // "intro action:" will be the command you type in 
     llm: undefined, // This can be set to any valid LLM used by OppyDev, it defaults to GPT-4
     temperature: 1, // This defines how creative the responses are 1 is the most creative, 0 is the least
     // description is used to describe to the system the purpose of this action
-    description: `This is an example action that illstrates how user's can create their own plugin actions`,
+    description: `This is an example action that illustrates how users can create their own plugin actions`,
     // These are where you define the prompts for your request to the AI
     prompts: {
       // This is where define the system prompt for your action
@@ -144,7 +144,7 @@ actions['intro func action:'] = { // "intro action:" will be the command you typ
     llm: undefined, // This can be set to any valid LLM used by OppyDev, it defaults to GPT-4
     temperature: 1, // This defines how creative the responses are 1 is the most creative, 0 is the least
     // description is used to describe to the system the purpose of this action
-    description: `This is an example action that illustrates how user's can create their own plugin actions`,
+    description: `This is an example action that illustrates how users can create their own plugin actions`,
     // These are where you define the prompts for your request to the AI
     prompts: {
       // This is where define the system prompt for your action
